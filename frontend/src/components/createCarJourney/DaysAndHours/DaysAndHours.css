@@ -1,0 +1,31 @@
+
+
+ul {
+    position: relative;
+    display: flex;
+    padding: 15px;
+    background: #F2F2F2;
+
+    & li {
+        position: relative;
+        list-style: none;
+        text-align: center;
+        padding: 10px 15px;
+        border: 1px solid #8E8E8E;
+
+        & label {
+            position: relative;
+            cursor: pointer;
+
+            & input[type="checkbox"] {
+                position: absolute;
+                opacity: 0;
+            }
+
+            & :checked ~ .day-label {
+                background: #65C0ED;
+                color: white;
+            }
+        }
+    }
+}

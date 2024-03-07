@@ -1,0 +1,14 @@
+#type-trajet {
+    background: #F2F2F2;
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.checkbox-type input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    padding: 0.3rem;
+    border: 0.25rem solid #000000;
+    border-radius: 50%;
+}
